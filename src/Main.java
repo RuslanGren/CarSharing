@@ -1,8 +1,9 @@
+package carsharing;
+
 public class Main {
 
     public static void main(String[] args) {
-        String dbName = "carsharing";
-        Menu menu = new Menu(new CarSharingDB(dbName));
+        Menu menu = new Menu();
         menu.start();
     }
 }
